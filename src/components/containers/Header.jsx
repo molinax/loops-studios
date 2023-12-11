@@ -9,7 +9,7 @@ const Header = () => {
   const switchMenu = () => setIsMenuOpened(!isMenuOpened)
 
   return (
-    <header className="container py-8 flex justify-between items-center bg-slate-300">
+    <header className="container py-10 flex justify-between items-center bg-slate-200">
       <img src={logo} alt="Loopstudios logo" />
 
       { isMenuOpened
