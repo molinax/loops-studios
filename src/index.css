@@ -5,7 +5,11 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply text-[15px];
+  }
+  
   body {
-    @apply text-[15px] text-very-dark-gray;
+    @apply text-very-dark-gray;
   }
 }
