@@ -1,8 +1,12 @@
 import Header from './components/containers/Header'
+import Main from './components/containers/Main'
 
 const App = () => {
   return (
-    <Header />
+    <>
+      <Header />
+      <Main />
+    </>
   )
 }
 
