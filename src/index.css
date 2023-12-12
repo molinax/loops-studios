@@ -10,6 +10,20 @@
   }
   
   body {
-    @apply text-very-dark-gray;
+    @apply text-very-dark-gray font-alata;
+  }
+
+  a {
+    @apply cursor-pointer;
+  }
+}
+
+@layer components {
+  .large-title-text {
+    @apply text-[2.8rem] uppercase font-josefin-sans;
+  }
+
+  .medium-title-text {
+    @apply text-3xl uppercase font-josefin-sans;
   }
 }

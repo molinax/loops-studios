@@ -6,6 +6,10 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        alata: ['Alata', 'sans-serif'],
+        'josefin-sans': ['Josefin Sans', 'sans-serif']
+      },
       colors: {
         white: 'hsl(0, 0%, 100%)',
         black: 'hsl(0, 0%, 0%)',
